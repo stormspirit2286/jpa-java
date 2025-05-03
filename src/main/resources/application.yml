@@ -1,0 +1,9 @@
+spring:
+  datasource:
+    url: jdbc:mysql://localhost:3306/jpa_to_senior_java
+    username: duynv
+    password: 123456789
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
